@@ -2,7 +2,7 @@ Summary:	Shell script to automate ripping and encoding of CD's
 Summary(pl):	Skrypt shella do automatyzacji zrzucania i przetwarzania kompaktów
 Name:		ripenc
 Version:	0.7
-Release:	2
+Release:	3
 Group:		Applications/Sound
 License:	GPL
 Source0:	http://www.asde.com/~mjparme/%{name}%{version}.tar.gz
