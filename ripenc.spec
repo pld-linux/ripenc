@@ -37,7 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 install ripenc $RPM_BUILD_ROOT%{_bindir}
 
-gzip -9nf README Changelog KNOWN_BUGS TODO
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -45,4 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/ripenc
-%doc *.gz
+%doc README Changelog KNOWN_BUGS TODO
