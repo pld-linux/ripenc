@@ -6,7 +6,7 @@ Release:	2
 Group:		Applications/Sound
 License:	GPL
 Source0:	http://www.asde.com/~mjparme/%{name}%{version}.tar.gz
-Patch0:		%{name}-HOME_ETC.patch
+Patch0:		%{name}-home_etc.patch
 Patch1:		%{name}-defaults.patch
 URL:		http://www.asde.com/~mjparme
 Requires:	dialog
