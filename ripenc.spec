@@ -9,7 +9,7 @@ Source0:	http://www.asde.com/~mjparme/%{name}%{version}.tar.gz
 # Source0-md5:	c51ecce28d63d27444437be2d35261a6
 Patch0:		%{name}-home_etc.patch
 Patch1:		%{name}-defaults.patch
-URL:		http://www.asde.com/~mjparme
+URL:		http://www.asde.com/~mjparme/
 Requires:	dialog
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
