@@ -1,0 +1,43 @@
+diff -Naur ripenc/ripenc ripenc-p/ripenc
+--- ripenc/ripenc	Thu Jun 24 20:40:30 1999
++++ ripenc-p/ripenc	Mon Jul 17 14:42:46 2000
+@@ -21,7 +21,20 @@
+ trap 'forcequit' KILL
+ trap 'forcequit' TERM
+ 
+-RCDIR=~/.ripenc
++if [ -n "$CONFIG_DIR" ]; then
++	RCDIR=$CONFIG_DIR/ripenc
++	if [ "$CONFIG_DIR" = "${CONFIG_DIR#/}" ]; then
++		RCDIR="$HOME/$RCDIR"
++	fi
++        mkdir -p ${RCDIR}
++        if [ -d ~/.ripenc ]; then
++                mv -f ~/.ripenc/* ${RCDIR} &> /dev/null
++		rmdir ~/.ripenc
++        fi
++else
++	RCDIR=~/.ripenc
++fi
++
+ TEMPDIR=${RCDIR}
+ SAVETO=~
+ TEMPSAVETO=${SAVETO}
+@@ -117,7 +130,7 @@
+         mkdir -p ${RCDIR}
+         if [ -f ~/.ripencrc ] || [ -f ~/.ripencsed ] ;
+         then
+-                mv ~/.ripencrc ${RCDIR}/ripencrc &> /dev/nul
++                mv ~/.ripencrc ${RCDIR}/ripencrc &> /dev/null
+                 mv ~/.ripencsed ${RCDIR}/ripencsed &> /dev/null
+         fi
+ }
+@@ -411,7 +424,7 @@
+ checkforsed
+ cleantemp
+ 
+-if [ -f ~/.ripenc/ripencrc ] ;
++if [ -f ${RCDIR}/ripencrc ] ;
+ then
+         . ${RCDIR}/ripencrc
+         RCREAD=1

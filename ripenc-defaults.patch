@@ -1,0 +1,14 @@
+diff -Naur ripenc/ripenc ripenc-p/ripenc
+--- ripenc/ripenc	Mon Jul 17 14:45:57 2000
++++ ripenc-p/ripenc	Mon Jul 17 14:46:49 2000
+@@ -40,8 +40,8 @@
+ TEMPSAVETO=${SAVETO}
+ ENCODER=bladeenc
+ RIPPER=cdparanoia
+-METHOD=cddb
+-XMCDLIB=/var/X11R6/lib/xmcd
++METHOD=manual
++XMCDLIB=/usr/X11R6/lib/xmcd
+ NCONVENT=artist-name_of_song.mp3
+ select=1
+ WHOLE=no
