@@ -16,14 +16,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a Bourne shell script that automates the ripping, encoding,
 and naming of CD's. It uses cda for CDDB lookups, cdparanoia, cdda2wav
-or tosha (a FreeBSD ripper) for ripping, and bladeenc, 8hz-mp3 or
+or tosha (a FreeBSD ripper) for ripping, and bladeenc, 8hz-MP3 or
 l3enc to encode the WAV files.
 
 %description -l pl
 To jest skrypt Bourne shella który automatyzuje zgrywanie,
 przetwarzanie i nazywanie kompaktów. U¿ywa cda do wyszukiwania w bazie
 CDDB, cdparanoi, cdda2wav lub tosha (pod FreeBSD) do zrzucania
-zawarto¶ci, oraz bladeenca, 8hz-mp3 lub l3enca do kodowania plików WAV
+zawarto¶ci, oraz bladeenca, 8hz-MP3 lub l3enca do kodowania plików WAV
 do postaci MP3.
 
 %prep
