@@ -4,21 +4,6 @@ Name:		ripenc
 Version:	0.7
 Release:	2
 Group:		Applications/Sound
-Group(cs):	Aplikace/Zvuk
-Group(da):	Programmer/Lyd
-Group(de):	Applikationen/Laut
-Group(es):	Aplicaciones/Sonido
-Group(fr):	Aplicações/Son
-Group(is):	Forrit/Hljóğ
-Group(it):	Applicazioni/Audio
-Group(no):	Applikasjoner/Lyd
-Group(pl):	Aplikacje/D¼wiêk
-Group(pt):	Aplicações/Som
-Group(pt_BR):	Aplicações/Som
-Group(ru):	ğÒÉÌÏÖÅÎÉÑ/ú×ÕË
-Group(sl):	Programi/Zvok
-Group(sv):	Tillämpningar/Ljud
-Group(uk):	ğÒÉËÌÁÄÎ¦ ğÒÏÇÒÁÍÉ/ú×ÕË
 License:	GPL
 Source0:	http://www.asde.com/~mjparme/%{name}%{version}.tar.gz
 Patch0:		%{name}-HOME_ETC.patch
