@@ -1,5 +1,5 @@
 Summary:	Shell script to automate ripping and encoding of CD's
-Summary(pl.UTF-8):   Skrypt shella do automatyzacji zrzucania i przetwarzania kompaktów
+Summary(pl.UTF-8):	Skrypt shella do automatyzacji zrzucania i przetwarzania kompaktów
 Name:		ripenc
 Version:	0.7
 Release:	4
