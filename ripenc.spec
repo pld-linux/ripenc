@@ -1,5 +1,5 @@
 Summary:	Shell script to automate ripping and encoding of CD's
-Summary(pl):	Skrypt shella do automatyzacji zrzucania i przetwarzania kompakt體
+Summary(pl.UTF-8):   Skrypt shella do automatyzacji zrzucania i przetwarzania kompakt贸w
 Name:		ripenc
 Version:	0.7
 Release:	4
@@ -19,11 +19,11 @@ and naming of CD's. It uses cda for CDDB lookups, cdparanoia, cdda2wav
 or tosha (a FreeBSD ripper) for ripping, and bladeenc, 8hz-MP3 or
 l3enc to encode the WAV files.
 
-%description -l pl
-To jest skrypt Bourne shella kt髍y automatyzuje zgrywanie,
-przetwarzanie i nazywanie kompakt體. U縴wa cda do wyszukiwania w bazie
+%description -l pl.UTF-8
+To jest skrypt Bourne shella kt贸ry automatyzuje zgrywanie,
+przetwarzanie i nazywanie kompakt贸w. U偶ywa cda do wyszukiwania w bazie
 CDDB, cdparanoi, cdda2wav lub tosha (pod FreeBSD) do zrzucania
-zawarto禼i, oraz bladeenca, 8hz-MP3 lub l3enca do kodowania plik體 WAV
+zawarto艣ci, oraz bladeenca, 8hz-MP3 lub l3enca do kodowania plik贸w WAV
 do postaci MP3.
 
 %prep
